@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GlowCare Skincare</title>
+  <style>
+    body {
+      background-image:url(bg\ img.avif);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: #333;
+    }
+    header, footer {
+      background: #ec9dac;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      color: #d63384;
+    }
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    article {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    article img {
+      max-width: 100%;
+      border-radius: 7;
+    }
+    article h3 {
+      margin: 10px 0 5px;
+    }
+    .price {
+      color: #d63384;
+      font-weight: bold;
+    }
+    input[type="number"] {
+      width: 50px;
+      text-align: center;
+      margin: 8px 0;
+    }
+    button {
+      background: #d63384;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>GlowCare Skincare</h1>
+</header>
+
+<main>
+  <article>
+    <img src= "cleanser.jpg" alt="Foaming cleanser">
+    <h3>Foaming Cleanser</h3>
+    <p class="price">₹1236</p>
+    <p>capacity=125ml</p> 
+    <button>Add to Cart</button>
+  </article>
+
+  <article>
+    <img src="moisturiser.jpg" alt="Daily Moisturizer">
+    <h3>Daily Moisturizer</h3>
+    <p class="price">₹943</p>
+    <p>capacity=100g</p> 
+    <button>Add to Cart</button>
+  </article>
+
+  <article>
+    <img src="glow sreum.jpg" alt="Glow Serum">
+    <h3>Glow Serum</h3>
+    <p class=price>₹1871</p>
+    <p>capacity=10ml</p> 
+    <button>Add to Cart</button>
+  </article>
+
+  <article>
+    <img src="sunscreen.jpg" alt="Sunscreen">
+    <h3>SPF 50 Sunscreen</h3>
+    <p class="price">₹999</p>
+    <p>capacity=125ml</p> 
+    <button>Add to Cart</button>
+  </article>
+</main>
+
+</body>
+</html>

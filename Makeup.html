@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glamour Makeup</title>
+  <style>
+    body {
+        background-image:url(bg\ img.avif);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: #333;
+    }
+    .header, .footer {
+      background: #edb6ff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      margin: 0;
+      color: #af15c7;
+    }
+    .main-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .product-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      border: 1px solid #fcc0ff;
+      width: 280px;
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 10px;
+      height: 220px;
+      object-fit: cover;
+    }
+    h3 {
+      margin: 15px 0 10px;
+      color: #db70c9;
+      font-size: 1.3em;
+    }
+    .price {
+      color: #be15c7;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    .capacity {
+      color: #888;
+      font-size: 1em;
+      margin: 8px 0;
+    }
+    button {
+      background: #db70d2;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1em;
+      margin-top: 15px;
+    }
+    button:hover {
+      background: #c715c7;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Glamour Makeup</h1>
+</div>
+
+<div class="main-content">
+  <div class="product-card">
+    <img src="liquid foundation.jpeg" alt="Liquid Foundation">
+    <h3>Liquid Foundation</h3>
+    <p class="price">₹1299</p>
+    <p class="capacity">30ml</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="eyeshadow.jpeg" alt="Eyeshadow Palette">
+    <h3>Eyeshadow Palette</h3>
+    <p class="price">₹1599</p>
+    <p class="capacity">16 shades</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="lipstick.jpeg" alt="Matte Lipstick">
+    <h3>Matte Lipstick</h3>
+    <p class="price">₹899</p>
+    <p class="capacity">3.5g</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="maskara.jpeg" alt="Volumizing Mascara">
+    <h3>Volumizing Mascara</h3>
+    <p class="price">₹799</p>
+    <p class="capacity">10ml</p>
+    <button>Add to Cart</button>
+  </div>
+</div>
+
+</body>
+</html>

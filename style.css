@@ -1,0 +1,108 @@
+body {
+    background-image: url('bg\ home.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+.header {
+    background-color: #c6e8ed;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.welcome-banner {
+    background-color: #f7d6e0;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.welcome-banner p {
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.product-categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.category-box {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.category-box:hover {
+    transform: translateY(-10px);
+}
+
+.category-image {
+    height: 200px;
+    overflow: hidden;
+}
+
+.category-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.category-box:hover .category-image img {
+    transform: scale(1.1);
+}
+
+.category-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.category-content h2 {
+    color: #ff85a2;
+    margin-bottom: 15px;
+}
+
+.category-content p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff85a2;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e76d8a;
+}
